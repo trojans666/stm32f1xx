@@ -1,0 +1,19 @@
+###############################################################################
+# 
+###############################################################################
+
+mainmenu "MCU App Configuration"
+
+  menu "Application"
+    source "application/Kconfig"
+  endmenu
+
+  menu "Rtos"
+    source "rtos/Kconfig"
+  endmenu
+
+  menu "Components"
+    source "components/Kconfig"
+  endmenu
+
+###############################################################################
